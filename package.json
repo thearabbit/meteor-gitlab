@@ -1,0 +1,20 @@
+{
+  "name": "meteor-gitlab",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.3.4",
+    "gitlab": "^5.0.0-rc.10",
+    "meteor-node-stubs": "^0.4.1",
+    "vue": "^2.6.10"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "client/main.js",
+      "server": "server/main.js"
+    },
+    "testModule": "tests/main.js"
+  }
+}
